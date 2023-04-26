@@ -1,5 +1,5 @@
 ## Overview
-This is the PyTorch implementation of paper [Towards Efficient Subarray Hybrid Beamforming: Attention Network-based Practical Feedback in FDD Massive MU-MIMO System](https://arxiv.org/abs/2302.02401). The test script and trained models are listed here and the key results can be reproduced as a validation of our work.
+This is the PyTorch implementation of paper [Towards Efficient Subarray Hybrid Beamforming: Attention Network-based Practical Feedback in FDD Massive MU-MIMO System](https://arxiv.org/abs/2302.02401). The test script and trained models are listed here and the key results can be reproduced as a validation of our work.由于信道的非互易性，频分双工(FDD)多输入多输出(MIMO)系统需要信道状态信息(CSI)反馈。在深度学习的帮助下，许多工作已经成功地重建了用于大规模MIMO的压缩理想CSI。然而，由于没有考虑信道估计和目标波束形成设计，简单的CSI重建实用性有限。在本文中，引入了一个联合优化的网络用于信道估计和反馈，以便可以学习频谱有效的波束形成器。此外，应用了部署友好的子阵列混合波束形成架构，并专门设计了实用的轻量级端到端网络。实验表明，与以前的最先进方法相比，所提出的网络在资源敏感的用户设备上的重量轻了10倍以上，性能损失很小。
 
 ## Requirements
 
